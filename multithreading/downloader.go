@@ -18,7 +18,7 @@ func main() {
  
     var s1, s2, s3 int
     fmt.Scanln(&s1)
-    fmt.Scanln(&s2)
+    fmt.Scanln(&s2) 
     fmt.Scanln(&s3)
 
     go download(s1, ch1)
