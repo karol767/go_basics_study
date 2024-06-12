@@ -15,7 +15,7 @@ func main() {
     ch1 := make(chan int)
     ch2 := make(chan int)
     ch3 := make(chan int)
-
+ 
     var s1, s2, s3 int
     fmt.Scanln(&s1)
     fmt.Scanln(&s2)
