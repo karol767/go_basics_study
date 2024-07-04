@@ -8,8 +8,8 @@ func download(v int, ch chan int){
 	}
 
 	ch <- csum
-}
-
+} 
+ 
 
 func main() {
     ch1 := make(chan int)
@@ -29,4 +29,5 @@ func main() {
 	value2 := <- ch2
 	value3 := <- ch3
 	fmt.Println(value1 + value2 + value3)
+	
 }
